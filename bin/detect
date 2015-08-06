@@ -1,6 +1,8 @@
 #!/bin/sh
 # USAGE bin/detect BUILD_DIR
 
+echo "----> checking $1/.meteor"
+
 if [ -d $1/.meteor ]; then
   echo "meteor"
   exit 0
